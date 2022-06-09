@@ -1,0 +1,54 @@
+name: e_store_coorgle
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  injectable: ^1.5.3
+  freezed_annotation: ^2.0.3
+  get_it: ^7.2.0
+  flutter_bloc: ^8.0.1
+  go_router: ^3.1.1
+  floating_bottom_navigation_bar: ^1.5.2
+  firebase_auth: ^3.3.19
+  firebase_core: ^1.17.1
+  cloud_firestore: ^3.1.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  injectable_generator: ^1.5.3
+  build_runner: ^2.1.11
+  freezed: ^2.0.3+1
+  json_serializable: ^6.2.0
+  flutter_native_splash: ^2.2.3
+  flutter_launcher_icons: ^0.9.3
+
+
+
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+
+flutter_native_splash:
+  image: assets/img/ss.png
+  color: "#ffffff"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/img/li.png"
+

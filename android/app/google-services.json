@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "868993176639",
+    "project_id": "ecom-app-5f2c6",
+    "storage_bucket": "ecom-app-5f2c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868993176639:android:307726c64a9b7d4fc9148a",
+        "android_client_info": {
+          "package_name": "com.example.e_store_coorgle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868993176639-lc643kg0814qo5d7bl1up10c7pjs6o54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHLe-nN0YL31unIon4z-vyWWxx30b-V8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868993176639-lc643kg0814qo5d7bl1up10c7pjs6o54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+part of 'login_page_cubit.dart';
+
+@freezed
+class LoginPageState with _$LoginPageState {
+  const factory LoginPageState({
+    @Default(Status.init) Status loginStatus,
+    @Default(Status.init) Status codeSentStatus,
+    String? errorMessage,
+    bool? newUser,
+  }) = _LoginPageState;
+}
